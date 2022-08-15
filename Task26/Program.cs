@@ -4,25 +4,23 @@
 // 78 -> 2
 // 89126 -> 5
 
-int CountNum(int number);
-{
-    int i = 1;
+//Вариант 1: - доработать
+// int CountNum(int number);
+// {
+//     int i = 1;
 
-    while (number % 10 != number)
-    {
-        number = number / 10;
-        i++;
-    }
-    return i;
-}
-
-Console.WriteLine("Введите число: ");
-int num = Convert.ToUInt32(Console.ReadLine());
-
-int result = CountNum(num);
-Console.WriteLine(result);
+//     while (number % 10 != number)
+//     {
+//         number = number / 10;
+//         i++;
+//     }
+//     return i;
+// }
+// int result = CountNum(num);
+// Console.WriteLine(result);
 
 
+//Вариант 2: доработать
 // Console.Write(" Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 // int x = num;
@@ -40,8 +38,8 @@ Console.WriteLine(result);
 //     }
 // }
 
-// Вариант
-// int Numbers(int number)
+// Вариант 3: - доработать
+// int Numbers(int number);
 // {
 // int x = number;
 //  if (x == 0)
@@ -64,15 +62,15 @@ Console.WriteLine(result);
 
 
 
-// //Вариант 2
-// // Console.WriteLine("Введите число: ");
-// // int num = Convert.ToUInt32(Console.ReadLine());
+//Вариант 4: - доработать
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-// // int i = 1;
+// int i = 1;
 
-// // while (num % 10! = num)
-// // {
-// //     num = num / 10;
-// //     i++;
-// // }
-// // Concole.WriteLine(i);
+// while (num % 10! = num)
+// {
+//     num = num / 10;
+//     i++;
+// }
+// Concole.WriteLine(i);

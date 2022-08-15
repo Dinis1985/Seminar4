@@ -9,6 +9,7 @@ Console.WriteLine("Введите целое положительное числ
 int num = Convert.ToInt32(Console.ReadLine());
 
 int sum = 0; // либо default
+int i = 1;
 
 for (i = 1; i <= num; i++)
 {

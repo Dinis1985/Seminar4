@@ -4,17 +4,15 @@
 // 4 -> 24
 // 5 -> 120
 
-
-
 // // Вариант 1
-// Console.Write("Введите целое число: ");
-// int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите целое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
-// int composition = 1;
-// for (int i = 1; i <= number; i++) 
-// {
-//     composition = composition * i;
-// }
+int composition = 1;
+for (int i = 1; i <= number; i++) 
+{
+    composition = composition * i;
+}
 
-// Console.WriteLine($"Произведение чисел от 1 до {number}: {composition}");
+Console.WriteLine($"Произведение чисел от 1 до {number}: {composition}");
 
