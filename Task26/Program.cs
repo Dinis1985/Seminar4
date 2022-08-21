@@ -16,7 +16,7 @@ while (number > 0)
 Console.WriteLine($" Введеное число {input} состоит из {i} цифр");
 
 
-//Вариант 1: - доработать
+// //Вариант 1: - доработать
 // Console.Write(" Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
@@ -36,7 +36,7 @@ Console.WriteLine($" Введеное число {input} состоит из {i}
 
 
 
-//Вариант 2: доработать
+// //Вариант 2: доработать
 // Console.Write(" Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 // int x = num;
@@ -57,7 +57,7 @@ Console.WriteLine($" Введеное число {input} состоит из {i}
 
 
 
-// Вариант 3: - доработать
+// //Вариант 3: - доработать
 // Console.Write(" Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 // int Numbers(int number);
@@ -83,7 +83,7 @@ Console.WriteLine($" Введеное число {input} состоит из {i}
 
 
 
-//Вариант 4: - доработать
+// //Вариант 4: - доработать
 // Console.WriteLine("Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
