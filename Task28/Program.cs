@@ -9,7 +9,7 @@ Console.Write("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int composition = 1;
-for (int i = 1; i <= number; i++) 
+for (int i = 1; i <= number; i++)
 {
     composition = composition * i;
 }

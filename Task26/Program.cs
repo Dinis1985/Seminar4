@@ -4,7 +4,22 @@
 // 78 -> 2
 // 89126 -> 5
 
+Console.WriteLine(" Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int i = 0;
+int input = number;
+while (number > 0)
+{ 
+    number /= 10;
+    i++;
+}
+Console.WriteLine($" Введеное число {input} состоит из {i} цифр");
+
+
 //Вариант 1: - доработать
+// Console.Write(" Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
 // int CountNum(int number);
 // {
 //     int i = 1;
@@ -18,6 +33,7 @@
 // }
 // int result = CountNum(num);
 // Console.WriteLine(result);
+
 
 
 //Вариант 2: доработать
@@ -38,23 +54,28 @@
 //     }
 // }
 
+
+
+
 // Вариант 3: - доработать
+// Console.Write(" Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 // int Numbers(int number);
 // {
-// int x = number;
-//  if (x == 0)
+//     int x = number;
+//     if (x == 0)
 //     {
 //         count = 1;
 //     }
-// else
-// {
-// while (x != 0)
+//     else
 //     {
-//         x = x / 10;
-//         count++;
+//         while (x != 0)
+//         {
+//             x = x / 10;
+//             count++;
+//         }
 //     }
-// }  
-// return count;
+//     return count;
 // }
 // Console.WriteLine(Numbers(num));
 
