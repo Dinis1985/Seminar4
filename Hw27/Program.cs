@@ -4,7 +4,7 @@
 // 82 -> 10
 // 9012 -> 12
 
-Console.Write("Введите число: ");
+Console.Write("Введите положительное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int SumNumbers(int number)
@@ -25,19 +25,3 @@ int SumNumbers(int number)
 int result = SumNumbers(num);
 Console.WriteLine($"Сумма цифр в числе {num} -> {result}");
 
-
-// Console.WriteLine("Введите целое положительное число: ");
-// int num = Convert.ToInt32(Console.ReadLine());
-
-// int SumNumbers(int number)
-// {
-//     int sum = 0;
-//     for (int i = 1; i <= number; i++)
-//     {
-//         sum += i;
-//     }
-//     return sum;
-// }
-
-// int result = SumNumbers(num);
-// Console.WriteLine($"Сумма чисел от 1 до {num} = {result}");
